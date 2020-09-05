@@ -1,2 +1,2 @@
 # DriversQuiz
-a web app that test drivers 
+a web app based on MERN stack that test drivers and give them a score on there decisions
