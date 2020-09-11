@@ -16,4 +16,4 @@ https://www.cna.dz/content/download/3549/25345/version/1/fichier/RT_Auto_Circula
 https://en.wikipedia.org/wiki/Road_signs_in_the_United_Arab_Emirates
 
 
-first index should be a page where the user choses the main language . then the quizz starts   (30 questions) if the user gets 25 at least he passes . every 5 questions the level of the quizz get a bit harder (beginer driver - intermediate - good ... ) . 
+first index should be a page where the user choses the main language . then the quizz starts   (30 questions) if the user gets 25 at least he passes .  15 beginer driver questions then the level of the quizz get a bit harder 12 question (intermediate) and the last 3 questions are very hard . 
