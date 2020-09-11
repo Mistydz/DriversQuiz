@@ -1,6 +1,6 @@
 # DriversQuiz
 
-a web app based on MERN stack that test drivers and give them a score on there decisions.
+a web app based on React JS that test drivers and give them a score on there decisions.
 
 # this document is just to keep track of my project (assets)
 
