@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&family=Righteous&display=swap");
+:root {
+  background-color: rgb(29, 26, 26);
+  background-image: url("img/b.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", sans-serif;
+}
+@media (min-width: 1200px) {
+  body {
+    font-size: 20px;
+  }
+
+  #container {
+    margin: 150px auto;
+    background: rgb(105, 107, 107);
+    background: -moz-linear-gradient(
+      90deg,
+      rgba(105, 107, 107, 1) 0%,
+      rgba(118, 133, 134, 1) 100%
+    );
+    background: -webkit-linear-gradient(
+      90deg,
+      rgba(105, 107, 107, 1) 0%,
+      rgba(118, 133, 134, 1) 100%
+    );
+    background: linear-gradient(
+      90deg,
+      rgba(105, 107, 107, 1) 0%,
+      rgba(118, 133, 134, 1) 100%
+    );
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#696b6b",endColorstr="#768586",GradientType=1);
+    height: 600px;
+    width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+  }
+  h1 {
+    font-family: "Righteous", cursive;
+    font-size: 63px;
+    margin: 50px 0px;
+    position: absolute;
+    text-shadow: 0 -1px 0 rgb(31, 31, 31), 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c,
+      0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424,
+      0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c,
+      0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414,
+      0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+    color: #ffffff;
+    top: 100px;
+    left: 260px;
+  }
+  #start {
+    font-size: 3em;
+    font-weight: bolder;
+    word-break: break-all;
+    width: 600px;
+    height: 80px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    left: 300px;
+    top: 280px;
+    color: rgb(0, 0, 0);
+  }
+  #start:hover {
+    border: 3px solid rgb(228, 127, 177);
+    color: rgb(224, 115, 170);
+  }
+
+  #qImg {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+  }
+  #qImg img {
+    width: 200px;
+    height: 200px;
+  }
+
+  #question {
+    width: 500px;
+    height: 125px;
+    position: absolute;
+    left: 50px;
+    top: 30px;
+  }
+  #question p {
+    margin: 0;
+    padding: 15px;
+    font-size: 1.25em;
+  }
+
+  #choices {
+    width: 1000px;
+    position: absolute;
+    left: 130px;
+    top: 270px;
+    padding: 10px;
+  }
+  .choice {
+    margin: 20px 10px;
+    display: inline-block;
+    width: 435px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+  }
+  .choice:hover {
+    border: 1px solid rgb(251, 255, 0);
+  }
+
+  #timer {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    bottom: 0px;
+    text-align: center;
+  }
+  #counter {
+    font-size: 3em;
+  }
+  #btimeGauge {
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    margin-left: 25px;
+  }
+  #timeGauge {
+    height: 10px;
+    border-radius: 10px;
+    background-color: mediumseagreen;
+    margin-top: -10px;
+    margin-left: 25px;
+  }
+  #progress {
+    width: 500px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    text-align: right;
+  }
+  .prog {
+    width: 18px;
+    height: 18px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+  #scoreContainer {
+    margin: 20px auto;
+    background-color: white;
+    opacity: 0.9;
+    height: 600px;
+    width: 1200px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+    display: none;
+  }
+  #scoreContainer img {
+    position: absolute;
+    top: 230px;
+    left: 570px;
+  }
+  #scoreContainer p {
+    position: absolute;
+    display: block;
+    top: 330px;
+    left: 300px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+  }
+}
