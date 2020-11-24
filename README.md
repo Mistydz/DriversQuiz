@@ -1,7 +1,7 @@
 # DriversQuiz
 
 Have you ever wondered how much you know or remember about the rules of the road? Could You Pass the Driver's License Exam?
-Well now you can try this quick quiz to test your road sign knowledge, DriversQuiz is a that give you a score based on your decisions.
+Well now you can try this quick quiz to test your road sign knowledge, DriversQuiz give you a score based on your decisions.
 
 ### *Demo*
 
