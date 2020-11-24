@@ -1,18 +1,13 @@
 # DriversQuiz
 
-a web app based on React JS that test drivers and give them a score on there decisions.
+Have you ever wondered how much you know or remember about the rules of the road? Could You Pass the Driver's License Exam?
+Well now you can try this quick quiz to test your road sign knowledge, DriversQuiz is a that give you a score based on your decisions.
 
-# this document is just to keep track of my project (assets)
+### *Demo*
 
-english pdf rules of the road : 
-http://www.rotr.ie/Rules_of_the_road.pdf
+* Hosting: This application is deployed on my webstie. Please check it out [Here](https://mistydev.cf/DriversQuiz)
+* Compatibility: For the perfect experience use a 1080p screen or a 1440p ... almost all phones works fine.
 
-frensh pdf rules :
-https://www.ornikar.com/code/cours
+this is a screenshot for the quiz on iPhone X :
+![demo](https://raw.githubusercontent.com/Mistydz/DriversQuiz/master/img/phoneUI.PNG)
 
-arabic pdf rules : 
-https://www.cna.dz/content/download/3549/25345/version/1/fichier/RT_Auto_Circulation_Routi%C3%A8re.pdf
-
-
-first index should be a page where the user choses the main language . then the quizz starts   (30 questions) if the user gets 25 at least he passes .  15 beginer driver questions then the level of the quizz get a bit harder 12 question (intermediate) and the last 3 questions are very hard. 
-after the quizz end the user get a score screen rightanswers/totalquestions .. the % get calculated if its > 70% u pass.
