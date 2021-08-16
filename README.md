@@ -8,6 +8,6 @@ Well now you can try this quick quiz to test your road sign knowledge, DriversQu
 * Hosting: This application is deployed on my webstie. Please check it out [Here](https://mistydev.cf/DriversQuiz)
 * Compatibility: For the perfect experience use a 1080p screen or a 1440p ... almost all phones works fine.
 
-screenshot taken on iPhone X 
+
 ![demo](https://raw.githubusercontent.com/Mistydz/DriversQuiz/master/img/phoneUI.PNG)
 
