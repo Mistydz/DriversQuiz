@@ -1,3 +1,4 @@
 # DriversQuiz
 
-this project will get changed
+this project will be changed soon
+MERN Stack app
